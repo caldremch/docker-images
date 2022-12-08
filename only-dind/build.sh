@@ -1,0 +1,1 @@
+docker build -t caldremch/only-dind:0.5 .
