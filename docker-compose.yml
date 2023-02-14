@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  dronebuild:
+    container_name: dronebuild
+    image: caldremch/build-drone
+    volumes:
+      - /Users/caldremch/work/code/go/drone:/app
+    entrypoint:
+      - sh
+      - scripts/build.sh
